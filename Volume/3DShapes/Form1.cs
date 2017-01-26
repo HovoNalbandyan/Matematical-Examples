@@ -34,8 +34,8 @@ namespace _3DShapes
             Elipsoid1.a = int.Parse(textBox4.Text);
             Elipsoid1.b = int.Parse(textBox10.Text);
             Elipsoid1.c = int.Parse(textBox6.Text);
-            textBox14.Text = Parallelepiped1.V().ToString();
-            textBox15.Text = Parallelepiped1.Area().ToString();
+            textBox14.Text = Elipsoid1.V().ToString();
+            textBox15.Text = Elipsoid1.Area().ToString();
 
 
 
@@ -107,6 +107,21 @@ namespace _3DShapes
         }
 
         private void textBox15_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
