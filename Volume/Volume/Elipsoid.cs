@@ -9,9 +9,7 @@ namespace Volume
     public class Elipsoid
     {
         int a;
-
         int b;
-
         int c;
 
         public Elipsoid()

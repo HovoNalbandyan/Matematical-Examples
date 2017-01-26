@@ -8,12 +8,9 @@ namespace Volume
 {
     public class Parallelepiped
     {
-        int a;
-
-        int b;
-
-        int c;
-
+       public int a;
+       public int b;
+       public int c;
         public Parallelepiped()
         {
             a = 1;
