@@ -94,6 +94,7 @@ namespace _3DShapes
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(53, 32);
             this.textBox4.TabIndex = 4;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged_1);
             // 
             // textBox5
             // 
@@ -110,6 +111,7 @@ namespace _3DShapes
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(51, 33);
             this.textBox6.TabIndex = 6;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // textBox7
             // 
@@ -136,6 +138,7 @@ namespace _3DShapes
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(53, 30);
             this.textBox9.TabIndex = 2;
+            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
             // textBox10
             // 
@@ -144,6 +147,7 @@ namespace _3DShapes
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(53, 33);
             this.textBox10.TabIndex = 5;
+            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // textBox11
             // 
@@ -152,6 +156,7 @@ namespace _3DShapes
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(51, 30);
             this.textBox11.TabIndex = 3;
+            this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
             // textBox12
             // 
@@ -159,6 +164,7 @@ namespace _3DShapes
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(100, 20);
             this.textBox12.TabIndex = 9;
+            this.textBox12.TextChanged += new System.EventHandler(this.textBox12_TextChanged);
             // 
             // textBox13
             // 
@@ -166,6 +172,7 @@ namespace _3DShapes
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(100, 20);
             this.textBox13.TabIndex = 10;
+            this.textBox13.TextChanged += new System.EventHandler(this.textBox13_TextChanged);
             // 
             // textBox14
             // 
@@ -173,6 +180,7 @@ namespace _3DShapes
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 20);
             this.textBox14.TabIndex = 11;
+            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
             // 
             // textBox15
             // 
@@ -180,6 +188,7 @@ namespace _3DShapes
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(100, 20);
             this.textBox15.TabIndex = 12;
+            this.textBox15.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
             // 
             // label1
             // 

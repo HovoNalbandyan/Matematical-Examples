@@ -8,9 +8,9 @@ namespace Volume
 {
     public class Elipsoid
     {
-        int a;
-        int b;
-        int c;
+        public int a;
+        public int b;
+        public int c;
 
         public Elipsoid()
         {
@@ -33,7 +33,9 @@ namespace Volume
 
         public double Area()
         {
-            return a * b * c;
+            float p = 1.6075f;
+            return 4f * (float)Math.PI * (float)Math.Pow(Math.Pow(a * b, p) + Math.Pow(a * b, p) + Math.Pow(b * b, p), 1f / p);
+           
         }
     }
 }
