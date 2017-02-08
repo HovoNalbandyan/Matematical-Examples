@@ -10,23 +10,20 @@ namespace y_ax_b
     {
         
         static void Main(string[] args)
-        {
-           
+        {         
             
             Console.Write("A=");
             double a = double.Parse(Console.ReadLine());
             Console.Write("B=");
             double b = double.Parse(Console.ReadLine());
             double dx = 0.5;
-            double x=-5;
-            int sum = 0;
-
+            double x=-5;         
             while
                 (x<=5)
             {
                 Console.Write("X=");
                 Console.Write(x);
-                Console.Write("     Y=");
+                Console.Write("Y=");
                 Console.WriteLine( (a*x * x) + b);
                
                 x += dx;
